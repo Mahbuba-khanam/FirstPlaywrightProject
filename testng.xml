@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utility.Sky_It_School_Listener">
+		</listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="tests.create_order_test" />
+			<class name="tests.Test_Customer_Login" />
+			<class name="tests.Test_Employee_Login" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
